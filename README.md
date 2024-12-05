@@ -1,1 +1,3 @@
-- 分支一：半截钥匙
+- half_of_the_key：半截钥匙
+- give_the_chocolate: 给死一袋巧克力粉
+- slightly_drunk: 微醺
