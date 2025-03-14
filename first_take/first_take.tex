@@ -1,0 +1,67 @@
+\documentclass[12pt,openany]{book}  % openany 允许章节在任何页开始，不一定要单页
+\usepackage[UTF8]{ctex}  % 适用于中文小说，如写英文小说可去掉此行
+\usepackage{geometry}     % 设定页面尺寸
+\usepackage[
+  pdftex,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  bookmarksopen=true
+]{hyperref}   % 设定书签
+\geometry{a5paper, left=2cm, right=2cm, top=2.5cm, bottom=2.5cm}
+\usepackage{titlesec}     % 调整标题格式
+\usepackage{fancyhdr}     % 页眉页脚
+\usepackage{setspace}     % 调整行距
+\usepackage{xcolor}       % 颜色支持
+\usepackage{hyperref}     % 超链接支持
+
+% 设置章节标题格式
+\titleformat{\chapter}[display]
+  {\Huge\bfseries} % 字体设置
+  {\centering\chaptername\ \thechapter} % 章节编号
+  {20pt} % 章节编号和标题的间距
+  {\Huge\centering} % 标题格式
+
+% 设置行距
+\renewcommand{\baselinestretch}{1.5}
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}  % 左页右页页码
+\fancyhead[RE,LO]{\leftmark} % 章节标题
+
+% 设定封面信息
+\title{First Take}
+\author{作者姓名}
+\date{\today}
+
+\begin{document}
+
+% 封面
+\maketitle
+\newpage
+
+% 目录
+%\tableofcontents
+%\newpage
+
+% 第一章
+\chapter{}
+故事开始于一次久别重逢。秋良总会看到冷得发灰的天空，和大巴车一扇扇模糊的窗。
+但是她总记得一件单衣，一件短袖，连着两条手臂——在车门前、候车厅、公交车座椅上——毫无迟疑地环住她。
+
+手臂上并没有汗珠，冰凉得令人缩紧脖颈，却在触碰到脸庞时变得那么柔软。秋良分不清手臂和手掌各自的温热，直到对方微微曲起手指，
+碰过耳垂和唇角，她才安心地向手靠去——更像得到许可的依偎。
+
+如果在盛夏，她们不可能用那么长时间摩挲。总是暴雨，一路噼啪作响的塑料棚顶，窝在一张老藤椅上的两人。秋良不太敢动，腰腹发力将自己的重量均摊，
+却时常被她的鼻息吹得失去平衡。耳朵后方，一阵一阵比气温略高的湿热，总令秋良想更紧地抱住她。而这样做，藤椅就会向一侧倾倒，秋良顺从地缩在她的身下，
+不知怎么就进入了卧室。事后，秋良总觉得她们是像在山坡顶躺下，压过越来越硬的草茎，一路滚进房间。被刺痛的皮肤一会儿就等来抚摸。战栗的麻木
+尚未消失前，秋良分不清她的手和嘴唇。
+
+但身着羽绒服的样子，秋良只在她的照片里见过。站在雪地，一只手冻得苍白，搭在锈红栏杆上展示新做的
+美甲。好漂亮的手指——有些自嘲地没说出口——“安全”更为贴切。或许可以向她索要一张更近的照片：穿着羽绒服，对着镜子的自拍。但她一定会只穿着羽绒服的。
+
+
+\newpage
+
+\end{document}
