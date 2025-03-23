@@ -1,0 +1,76 @@
+\documentclass[12pt,openany]{book}  % openany 允许章节在任何页开始，不一定要单页
+\usepackage[UTF8]{ctex}  % 适用于中文小说，如写英文小说可去掉此行
+\usepackage{geometry}     % 设定页面尺寸
+\usepackage[
+  pdftex,
+  bookmarks=true,
+  bookmarksnumbered=true,
+  bookmarksopen=true
+]{hyperref}   % 设定书签
+\geometry{a5paper, left=2cm, right=2cm, top=2.5cm, bottom=2.5cm}
+\usepackage{titlesec}     % 调整标题格式
+\usepackage{fancyhdr}     % 页眉页脚
+\usepackage{setspace}     % 调整行距
+\usepackage{xcolor}       % 颜色支持
+\usepackage{hyperref}     % 超链接支持
+
+% 设置章节标题格式
+\titleformat{\chapter}[display]
+  {\Huge\bfseries} % 字体设置
+  {\centering\chaptername\ \thechapter} % 章节编号
+  {20pt} % 章节编号和标题的间距
+  {\Huge\centering} % 标题格式
+
+% 设置行距
+\renewcommand{\baselinestretch}{1.5}
+
+% 页眉页脚设置
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}  % 左页右页页码
+\fancyhead[RE,LO]{\leftmark} % 章节标题
+
+% 设定封面信息
+\title{触碰}
+\author{作者姓名}
+\date{\today}
+
+\begin{document}
+
+% 封面
+\maketitle
+\newpage
+
+\chapter*{}
+
+\textit{很适合写小说呢现在 2025/3/23 13：52}
+
+见面以前，她反复想着石尘手指的温度。
+
+这座城市太小了，刚下汽车站，就能望见窄窄的拱顶，映出路灯的片片玻璃，
+和暗红色的某某站。她跨过不到膝盖的栏杆，近乎笔直地往火车站出口迈去。
+
+为什么就没带几件行李呢？如果她也拖着大箱子，或许就能在空阔而曲折的广场里打转，
+寻找合适的道路，趁此整理一下自己的心情。正午，阳光刺眼，或许还能走进一家冷饮店，
+和石尘闲聊，等她到站再慢慢踱去。
+
+但她现在几乎已经能推开候车厅的门了。
+
+筒形的门把手很凉。走进去，挤进方言声——她一直听不懂。这里确实凉快些，但能徘徊的空间
+只有一条走廊，幸好现在进站的人不多。安检口就立在门边，望过其后高高的电动扶梯，
+才能看见巨大的车次表，和候车厅的灯光。
+
+本是没打算在这里等待的。她曾一度绕到出站口，但是——这座城市太小了——那里仅仅是
+几个检票机，杵在向下延伸的浅浅的通道前，连阴影都没有。她讨厌汗液，就有些愤愤地
+走进候车厅，但没想到也只能挤在玻璃边的走廊。
+
+想把头靠在玻璃上，侧脸望向外面走走停停的人群。有些过于幽怨了。于是她仅仅
+取出手机，在主页面滑了两下，又放回口袋，仍用手握住。她不习惯开铃声，但总能
+第一时间收到消息。
+
+不过，还是瞅向玻璃的倒影，理了理自己的发型，拽了拽稍有变形的外衣。用手拨去
+鼻尖上的汗珠时，忽然想到石尘指尖的温度。
+
+\textit{存档。再往下去似乎要碰到比较沉重的部分了，而单单摘出来又有些不负责。2025/3/23 15：21}
+
+\end{document}
