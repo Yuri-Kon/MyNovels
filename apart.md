@@ -1,8 +1,32 @@
-# 深夜
+---
+title: "深夜"
+author: yurikon
+date: ""
+fontsize: 12pt
+geometry: a5paper
+linestretch: 1.8
+documentclass: ctexart
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: false
+    number_sections: false
+    highlight: tango
+header-includes:
+  - \setCJKmainfont{Source Han Serif CN}
+  - \usepackage{indentfirst}
+  - \setlength{\parindent}{2em}
+  - \setlength{\parskip}{0em}
+  - \usepackage{setspace}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \lhead{深夜}
+  - \rhead{yurikon}
+  - \cfoot{\thepage}
+---
+
 
 她没想到这边的夏夜那么凉。
 
-凌晨两点，从小区出去。路灯被宽大的叶子层叠遮掩，静止着。克制身体的摆动，不愿带起风。夹道两旁留着杨树桩，走到尽头就能在大街上随意选择一条巷子，漫游。
-
-门高出地面三级台阶。一路都是如此。他们回到家只要走三步。那些门在地面下的，似乎更加轻松了。台阶会接着铺开参差的青石砖，随树桩的根系起伏。一处洼地燃着一排火。焦炭味。一个男人在烤肉，鼓风机停在木凳脚边。火星跳着，映不亮男人的脸。
-
+她没想好去哪儿。迈过小区的铁门，稀疏的路灯被树叶层叠遮掩，静止着。她克制身体的摆动，不愿带起风。
